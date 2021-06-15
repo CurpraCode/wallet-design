@@ -10,7 +10,7 @@ function Platform() {
       <Divid>
         <img src={Dashboard} alt="phone wallet" width="28%" />
         <Inner>
-          <p>Best E-money Platform</p>
+          <p id="pa">Best E-money Platform</p>
           <h1>
             {" "}
             <span> E-money </span> platform <br />
@@ -54,15 +54,16 @@ const Divid = styled.div`
   margin: 0 auto;
   width: 100%;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
   font-family: "poppins", sans-serif;
 `;
 const Inner = styled.div`
   margin-left: 13rem;
   margin-top: 1rem;
-  p {
+  #pa {
     margin-bottom: 1rem;
     color: #e69913;
+    font-weight:bolder;
   }
   span {
     color: rgba(19, 202, 230, 1);

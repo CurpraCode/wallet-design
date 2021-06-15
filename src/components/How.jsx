@@ -10,7 +10,7 @@ function How() {
             <img src={Phoned} alt="phone" width="45%"/>
                 <div>
                     <div>
-                        <p>How to use</p>
+                        <p id="p">How to use</p>
                         <h1>How does it work?</h1>
                         <p>Walloet is a very reliable store of money for everyday life. for
                             example for paying monthly bils, transferring other accounts,
@@ -58,6 +58,14 @@ max-width: 1124px;
   width: 100%;
   margin-top: 2rem;
   font-family:"poppins", san-serif;
+  #p{
+      color: #e69913;
+    font-weight:bolder;
+
+  }
+  h1{
+    font-weight:bolder;
+}
 
 `
 const Boxer=styled.div`
@@ -72,5 +80,8 @@ margin-top:6.2rem;
 }
 .dive{
     margin-top:3rem;
+}
+h4{
+    font-weight:bolder;
 }
 `

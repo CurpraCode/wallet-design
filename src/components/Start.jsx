@@ -9,12 +9,12 @@ function Start() {
             <Cover>
               
                 <div>
-                    <p>Lots of great people</p>
+                    <h5>Lots of great people</h5>
                     <h1>It is believed by <br/>
                         many people
                     </h1>
-                    <p>Many great people use our application and are trusted by 
-                        them, so our application is highly recommended for 
+                    <p>Many great people use our application and are trusted by <br />
+                        them, so our application is highly recommended for <br /> 
                         carry out your transactions.
                     </p>
                     <Button/>
@@ -31,7 +31,20 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 max-width: 1124px;
+font-family:"poppins", sans-serif;
   margin: 0 auto;
   width: 100%;
-  margin-top: 2rem;
+  margin-bottom: 6rem;
+  h5{
+      color:#e69913;
+      margin-bottom:1rem
+  }
+  h1{
+      font-weight: bolder;
+      line-height:3rem;
+      margin-bottom:1rem
+  }
+  p{
+    margin-bottom:1rem
+  }
 `
