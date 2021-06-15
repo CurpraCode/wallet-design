@@ -58,6 +58,15 @@ const Boxing = styled.div`
   margin-top: 5.3rem;
   margin-bottom: 8.3rem;
   font-family: "poppins", sans-serif;
+  @media screen and (max-width: 1174px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 1024px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
   h4 {
     color: #e69913;
   }
@@ -67,6 +76,11 @@ const Crad = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 3.3rem;
+  @media screen and (max-width: 824px){
+ flex-direction:column;
+ justify-content: center;
+ align-items:center;
+  }
 `;
 const Border = styled.div`
   position: relative;
@@ -74,6 +88,13 @@ const Border = styled.div`
   padding: 2.3rem;
   margin-right: 1.5rem;
   background-color: rgba(217, 217, 220, 0.722);
+  @media screen and (max-width: 824px){
+      margin-top: 4rem;
+      /* width:70%; */
+      margin-left: 0px;
+    margin-right: 70px;
+ 
+  }
   :hover {
     background-color: rgb(18, 21, 46);
     color: rgb(255, 255, 255);

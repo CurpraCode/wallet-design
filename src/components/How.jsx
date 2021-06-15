@@ -8,7 +8,7 @@ function How() {
         <div>
             <Display>
             <img src={Phoned} alt="phone" width="45%"/>
-                <div>
+                <div id="dis">
                     <div>
                         <p id="p">How to use</p>
                         <h1>How does it work?</h1>
@@ -58,6 +58,26 @@ max-width: 1124px;
   width: 100%;
   margin-top: 2rem;
   font-family:"poppins", san-serif;
+  @media screen and (max-width: 1174px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 1024px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 824px){
+flex-direction: column-reverse;
+justify-content:center;
+align-items: center;
+margin-left: 0px;
+    margin-right: 70px;
+    margin-bottom: 3rem;
+    #dis{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+  }
   #p{
       color: #e69913;
     font-weight:bolder;
@@ -71,7 +91,6 @@ max-width: 1124px;
 const Boxer=styled.div`
 display:flex;
 justify-content:space-between;
-
 `
 const Bov=styled.div`
 margin-top:6.2rem;

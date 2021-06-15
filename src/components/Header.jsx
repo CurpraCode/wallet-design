@@ -35,6 +35,14 @@ max-width: 1124px;
 margin:0 auto;
 width:100%;
 padding-top: 2.5rem;
+@media screen and (max-width: 1174px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 1024px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
 h2{
     color:rgba(19, 202, 230, 1);
     margin-bottom:1rem;

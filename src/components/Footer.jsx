@@ -74,6 +74,14 @@ margin:0 auto;
 width:100%;
 padding-top: 2.5rem;
 padding-bottom: 2.5rem;
+@media screen and (max-width: 1174px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 724px){
+ flex-direction:column;
+ justify-content: center;
+  }
 `
 const Sected=styled.div`
 h2{
@@ -118,6 +126,17 @@ display:flex;
 justify-content: space-between;
 align-items: center;
 padding-bottom:2rem;
+@media screen and (max-width: 724px){
+ flex-direction:column;
+ justify-content: center;
+ div{
+    margin-bottom:1rem;
+}
+  }
+@media screen and (max-width: 1174px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
 div{
     display: flex;
     justify-content: space-between;

@@ -32,6 +32,24 @@ width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
+@media screen and (max-width: 1174px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 1024px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 824px){
+ flex-direction:column;
+ /* justify-content: center; */
+ svg{
+     width:90%;
+     margin-left: 0px;
+     margin-right:150px;
+ }
+
+  }
 `
 const Content=styled.div`
 font-family:"poppins", sans-serif;

@@ -56,10 +56,33 @@ const Divid = styled.div`
   margin-top: 2rem;
   margin-bottom: 8rem;
   font-family: "poppins", sans-serif;
+  @media screen and (max-width: 1174px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 1024px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 824px){
+flex-direction: column-reverse;
+justify-content:center;
+align-items: center;
+margin-left: 0px;
+    margin-right: 70px;
+  }
 `;
 const Inner = styled.div`
   margin-left: 13rem;
   margin-top: 1rem;
+  @media screen and (max-width: 824px){
+flex-direction: column-reverse;
+justify-content:center;
+align-items: center;
+margin-left: 0px;
+    margin-right: 70px;
+    margin-bottom: 3rem;
+  }
   #pa {
     margin-bottom: 1rem;
     color: #e69913;

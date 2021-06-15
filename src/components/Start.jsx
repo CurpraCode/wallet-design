@@ -35,6 +35,20 @@ font-family:"poppins", sans-serif;
   margin: 0 auto;
   width: 100%;
   margin-bottom: 6rem;
+  @media screen and (max-width: 1174px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 1024px){
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 824px){
+ flex-direction:column;
+ justify-content: center;
+ align-items:center;
+ margin-left: 0px;
+  }
   h5{
       color:#e69913;
       margin-bottom:1rem
